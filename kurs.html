@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles//stylesheet.css">
     <title>Der Kurs des Bitcoins</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
 </head>
 <body>
-<a href="index.html">Home</a>
-<a href="hist.html">Geschichte</a>
-<a href="tech.html">Technologie</a>
-<a href="kurs.html">Kurs</a>
-<a href="trans.html">Transaktionen</a>
+<ul>
+    <li><a href="sources.html">Quellen</a></li>
+    <li><a href="hist.html">Geschichte</a></li>
+    <li><a href="tech.html">Technologie</a></li>
+    <li><a class="active" href="kurs.html">Kurs</a></li>
+    <li><a href="trans.html">Transaktionen</a></li>
+    <li><a href="index.html">Home</a></li>
+    <img id="logo" height="30" src="img/bitcoin_logo.svg" alt="Bild des Bitcoin Logos">
+</ul>
+<div class="text">
 <h1>Kurs</h1>
-<p>TODO create chart</p> <!--TODO create chart-->
+<div id="chart_div"></div>
+</div>
 </body>
 </html>
