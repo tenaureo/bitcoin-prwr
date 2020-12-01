@@ -122,14 +122,13 @@ function drawBasic() {
         vAxis: {
             title: 'Kurs BTC - USD '
         },
-        width: 1000,
-        height: 400,
         backgroundColor : '#181A1B',
-        trendlines: {
-            2: {
+        explorer: {}
+        /*trendlines: {
+            0: {
                 color: '#f7931a'
             }
-        }
+        }*/
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
