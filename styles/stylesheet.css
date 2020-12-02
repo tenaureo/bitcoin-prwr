@@ -69,12 +69,24 @@ p  {
 .left {
     padding: 6px;
     height: 30px;
+    float: left;
 }
 
 @media only screen and (max-width: 1100px) {
     .text {
         padding-left: 10%;
         padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    ul li {float: none;}
+    .left {
+        height: 0;
+        width: 0;
+    }
+    .text {
+        margin-top: 230px;
     }
 }
 
