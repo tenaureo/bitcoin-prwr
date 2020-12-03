@@ -88,6 +88,9 @@ p  {
     .text {
         margin-top: 230px;
     }
+    #chart_div {
+        height: 50%;
+    }
 }
 
 
