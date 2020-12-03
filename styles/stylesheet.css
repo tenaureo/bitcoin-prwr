@@ -53,6 +53,7 @@ h2 {
 p  {
     font-size: 110%;
     color: #D0CCC6;
+    text-align: justify;
 }
 
 #chart_div text {
@@ -89,8 +90,15 @@ p  {
         margin-top: 230px;
     }
     #chart_div {
-        height: 50%;
+        height: 55%;
     }
+}
+
+#img {
+    float: right;
+    margin: 5px;
+    width: 200px;
+    height: 60px;
 }
 
 
