@@ -94,6 +94,14 @@ p  {
     }
 }
 
+.intextpic {
+	width: 500px;
+    height: 300px;
+	float:right;
+	padding-left: 10px;
+}
+
+
 #img {
     float: right;
     margin: 5px;
